@@ -1,0 +1,15 @@
+{
+  "name": "gamestopbackend",
+  "version": "1.0.0",
+  "description": "Backend for the gamestop app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/andresribeiro1996/gamestopbackend.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
