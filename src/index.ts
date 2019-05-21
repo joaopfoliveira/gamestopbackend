@@ -1,14 +1,13 @@
 import { json } from 'body-parser';
 import { connect } from 'mongoose';
+import { config } from './utils/config';
 
 // Carrega o model de Usuário
 import './models/user';
 const app = require('express')();
 
 // Conecta no MongoDB
-connect(
-  'mongodb+srv://nodetutorial:nodetutorial@cluster0-cp4go.mongodb.net/test?'
-);
+connect(config.mongoURI);
 
 app.use(json());
 

@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://nodetutorial:nodetutorial@cluster0-cp4go.mongodb.net/test?",
+  "port": 5050
+}
