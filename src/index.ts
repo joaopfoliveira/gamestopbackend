@@ -13,5 +13,5 @@ app.use(json());
 
 // Inicia as rotas da API
 app.use('/api', require('./controllers/userController'));
-
-app.listen(3000);
+const PORT = process.env.PORT || config.port;
+app.listen(PORT || config.port,() => console.log(`Example app listening on port ${PORT}!`));
