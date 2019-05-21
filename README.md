@@ -20,7 +20,7 @@
 
 * **Success Response:**
 
-  * **Code:** 200 <br />
+  * **Code:** 200 OK<br />
 
     **Content:** `{"user": {"_id": "5ce4646a756a790004c5ecc4","email": "john@doe.com"}}`
  
